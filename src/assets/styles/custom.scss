@@ -1,0 +1,250 @@
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@font-face {
+  font-family: "Anti";
+  src: local("Anti"),   url(../font/anti.ttf) format("truetype");}
+
+  @font-face {
+    font-family: "Art";
+    src: local("Art"),   url(../font/art.otf) format("truetype");}
+// Override / set color variables
+$font-family-base: 18px; 
+
+$blue: #3399ff;
+$orange: #22f2e1;
+$body-bg: rgb(242, 245, 229);
+$body-color: rgb(248, 248, 248);
+body { min-height: 100vh; margin-bottom: 60px;}
+
+$secondary: $orange;
+
+$theme-colors: (
+  "primary": #d322f2,
+  "danger": #ff4136,
+  "secondary": $blue,
+);
+#app {
+  font-family: 'Montserrat';
+  
+  min-height: calc(100vh - 70px);
+}
+.navbar {
+  height: 10%;
+}
+.footer {
+  position: absolute;
+  /* Set the fixed height of the footer here */
+  height: 69px;
+  width: 100%;
+  background-color: #CCC;
+  font-size: 36px;
+}
+.frame {
+  background-color:rgb(248, 248, 248);
+  
+}
+
+.artist {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://placehold.jp/500x350.png");
+  height: 350px;
+  background-color:rgb(248, 248, 248);
+  background-size: 100% 100%;
+}
+//Adjust the sizeof the carsouel 
+#tns1-ow {
+  width:100%;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+}
+.map {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+}
+.gallery {    
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;    
+}
+
+.notes {
+  background-color:cadetblue;
+  height: 400px;
+  width: 405px;
+  margin-left: 5%;
+  position: relative;
+z-index: 110;
+}
+
+.caption {
+  margin-top: -500px;
+  margin-left: 5%;
+  
+  width: 600px;
+  z-index: 110;
+  background-color:brown;
+  position: relative;
+  }
+
+ .caption h1 {
+   font-family: 'Anti';
+  font-size: 8rem;
+  
+ } 
+   
+ .container {
+    display: grid; 
+    
+    
+    justify-items: end;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."; 
+  }
+  .splide {
+    z-index: 0;
+    width: 800px;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  p.lead {
+    font-family: "Art";
+    color: white;
+    font-size: 6rem;
+    
+  }
+
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+@media only screen and (max-width: 1350px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(3, 1fr);   
+   }
+   .notes {
+    background-color: yellowgreen;
+    margin-top: 225px;
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    z-index: 110;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(3, 1fr);   
+   }
+   .notes {
+    background-color:blanchedalmond;
+ 
+  }
+  .caption{
+  margin-left: 5%;
+    background-color: pink;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  iframe {
+    width: 100%;
+   }
+ 
+}
+@media only screen and (max-width: 790px) {
+.splide {
+  margin-left: -100px;
+}
+}
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(2, 1fr);   
+   }
+   .map {
+     grid-template-columns: 1fr;
+   }
+   .caption h1 {
+   font-size: 2rem;
+  } 
+  p.lead {
+
+    font-size: 2rem;
+    
+  }
+  .splide {
+    z-index: 0;
+    width: 600px;
+    margin-left: -90px;
+  }
+  .caption{
+    margin-left: 5%;
+     background-color: lightgoldenrodyellow;
+     width: 85%;
+     margin-top: 50px;
+   }
+ 
+   .notes {
+     width: 85%;
+     margin-top: 100px;
+     margin-left: 5%;
+     margin-right: 50px;
+   }
+   .container {
+     display: none;
+   }
+
+}
+
+@media only screen and (max-width: 695px) {
+  body {
+    background-color: blue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(1, 1fr);   
+   }
+
+
+}
+
+@media only screen and (max-width: 495px) {
+
+
+}
+
+//@import '../node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+//@import '../node_modules/bootstrap-vue/src/index.scss';
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
