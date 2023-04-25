@@ -11,11 +11,13 @@
   
   <div class="row" >
   <div class="column conditional">
-  <p>dsfsdfdsfdsfds</p>
+  <p></p>
   </div>
-  <div class="column">
-  <p class="lead">
-  <a class="btn btn-primary btn-lg" href="#/about" role="button" style="font-weight: bold; letter-spacing: .1rem;">Learn more</a>
+  <div class="column text-center justify-content-center ">
+    <br>
+    <br>
+    <p class="lead ">
+  <a class="centeredbtn btn-primary btn-lg" href="#/about" role="button" style="font-weight: bold; letter-spacing: .1rem;">Learn more</a>
   </p>
   </div>
   </div>
