@@ -12,7 +12,7 @@
   <a href="https://www.instagram.com/vtislandcraftshop" alt="insta" style="color:white; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
   <a href="https://www.instagram.com/vtislandcraftshop" alt="twitter" style="color:white; padding-right: 10px;"><font-awesome-icon color:white :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
   <div style="color: white; font-size:12px; padding-top: 10px;"><a style="color:white" href="tel:8023723945">Call us @ 802-372-3945</a></div></div>
-  <p style="color: white; font-size:12px">Find us @ 329 U.S. Rte 2, South Hero, VT 05486</p>
+  <p style="color: white; font-size:14px">Find us @ 329 U.S. Rte 2, South Hero, VT 05486</p>
   </footer>
   </div>
 </template>
