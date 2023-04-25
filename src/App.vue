@@ -12,7 +12,7 @@
   <a href="https://www.instagram.com/vtislandcraftshop" alt="insta" style="color:white"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
   <a href="https://www.instagram.com/vtislandcraftshop" alt="twitter" style="color:white"><font-awesome-icon color:white :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
   <div style="color: white; font-size:12px"><p>Tel: (802) 372-3945</p>
-    <p>
+    <p>fgdfg
   329 U.S. Rte 2, South Hero, VT 05486</p>
 </div>
   </div>
