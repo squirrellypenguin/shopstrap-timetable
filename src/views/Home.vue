@@ -7,7 +7,7 @@
   <h1 class="title">Island Craft Shop</h1>
   <p class="lead" >An artisan cooperative</p>
   <hr class="my-4">
-  <p>Island Craft Shop (ICS) located at 329 US Route 2 in South Hero Village is the oldest artisan cooperative in the Lake Champlain Region</p>
+  <p>Island Craft Shop (ICS) located in the South Hero Village is the oldest artisan cooperative in the Lake Champlain Region</p>
   
   <div class="row" >
   <div class="column conditional">
@@ -22,7 +22,7 @@
   </div>
   </div>
   </div>
-  <div class="notes">NOTES
+  <div class="notes">
   </div>
 
 </div>
