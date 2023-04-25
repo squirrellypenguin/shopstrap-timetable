@@ -7,9 +7,9 @@
       <router-view/>
   </div>
   <footer class="footer">
-  <a href="https://www.facebook.com/Island-Craft-Shop-189477107771345/" alt="FB"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
-  <a href="https://www.instagram.com/vtislandcraftshop" alt="insta"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
-  <a href="https://www.instagram.com/vtislandcraftshop" alt="twitter"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+  <a href="https://www.facebook.com/Island-Craft-Shop-189477107771345/" alt="FB" style="color:white"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+  <a href="https://www.instagram.com/vtislandcraftshop" alt="insta" style="color:white"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
+  <a href="https://www.instagram.com/vtislandcraftshop" alt="twitter" style="color:white"><font-awesome-icon color:white :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
   </footer>
   </div>
 </template>

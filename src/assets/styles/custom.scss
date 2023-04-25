@@ -10,22 +10,23 @@
 
   @font-face {
     font-family: "Art";
+    
     src: local("Art"),   url(../font/art.otf) format("truetype");}
 // Override / set color variables
 $font-family-base: 18px; 
-
+$bold-weight: 800;
 $blue: #3399ff;
 $orange: #22f2e1;
-$body-bg: rgb(242, 245, 229);
-$body-color: rgb(248, 248, 248);
+$body-bg: blanchedalmond;
+$body-color: rgb(141, 7, 153);
 body { min-height: 100vh; margin-bottom: 60px;}
 
 $secondary: $orange;
 
 $theme-colors: (
-  "primary": #d322f2,
+  "primary": #bf1b2c,
   "danger": #ff4136,
-  "secondary": $blue,
+  "secondary": #F9F9F9,
 );
 #app {
   font-family: 'Montserrat';
@@ -34,13 +35,14 @@ $theme-colors: (
 }
 .navbar {
   height: 10%;
+  z-index: 10;
 }
 .footer {
   position: absolute;
   /* Set the fixed height of the footer here */
   height: 69px;
   width: 100%;
-  background-color: #CCC;
+  background-color: #bf1b2c;
   font-size: 36px;
 }
 .frame {
@@ -64,6 +66,7 @@ $theme-colors: (
 .button-box {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 .map {
   margin: 50px;
@@ -80,7 +83,7 @@ $theme-colors: (
 }
 
 .notes {
-  background-color:cadetblue;
+  background-color:blanchedalmond;
   height: 400px;
   width: 405px;
   margin-left: 5%;
@@ -92,15 +95,15 @@ z-index: 110;
   margin-top: -500px;
   margin-left: 5%;
   
-  width: 600px;
-  z-index: 110;
-  background-color:brown;
+  
+
   position: relative;
   }
 
  .caption h1 {
    font-family: 'Anti';
-  font-size: 8rem;
+  font-size: 6rem;
+  text-align: center;
   
  } 
    
@@ -127,15 +130,14 @@ z-index: 110;
   p.lead {
     font-family: "Art";
     color: white;
+    font-weight: bold;
     font-size: 6rem;
     
   }
 
 
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
+ 
+
 @media only screen and (max-width: 1350px) {
   body {
     background-color: lightblue;
@@ -195,23 +197,31 @@ z-index: 110;
      grid-template-columns: 1fr;
    }
    .caption h1 {
-   font-size: 2rem;
+   font-size: 3rem;
+   z-index: -1;
   } 
   p.lead {
-
+    color: black;
     font-size: 2rem;
+    display: grid;
+    text-align: center;
+    font-weight: bold;
     
+  }
+  .btn-primary {
+    font-weight: bold;
   }
   .splide {
     z-index: 0;
-    width: 600px;
+    #width: 600px;
     margin-left: -90px;
   }
   .caption{
     margin-left: 5%;
-     background-color: lightgoldenrodyellow;
+     background-color: blanchedalmond;
      width: 85%;
      margin-top: 50px;
+     font-weight: bold;
    }
  
    .notes {
@@ -228,7 +238,7 @@ z-index: 110;
 
 @media only screen and (max-width: 695px) {
   body {
-    background-color: blue;
+    
   }
   .gallery {    
       grid-template-columns: repeat(1, 1fr);   
