@@ -5,7 +5,7 @@
   </div>
   
   <div class="caption" >
-    <div class="sign">
+    <div class="sign front">
     <h1 class="title">Island Craft Shop</h1>
  
     <p class="lead" >An artisan cooperative</p>
