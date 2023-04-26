@@ -2,7 +2,6 @@
 //   outline: 1px solid red;
 //   outline-offset: -1px;
 // }
-// style sheet
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @font-face {
@@ -19,8 +18,8 @@ $bold-weight: 800;
 $blue: #3399ff;
 $orange: #22f2e1;
 $red: #fff;
-$body-bg: whitesmoke;
-$body-color: rgb(141, 7, 153);
+$body-bg: #d5c9bc;
+$body-color: rgb(179, 0, 24);
 body { min-height: 100vh; margin-bottom: 70px;}
 
 $secondary: $orange;
@@ -319,6 +318,7 @@ h2 {
 h2.smaller {
  text-align: center;
   font-size: 1.7rem;
+  margin-top: -2px;
 }
 }
 
