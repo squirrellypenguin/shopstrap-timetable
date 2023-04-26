@@ -2,7 +2,7 @@
   <div class="about">
     <h2 class="smaller">From Modest Beginnings</h2>
     <div class="sign" >
-      <img class="column small img-responsive" src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo_psgujc.png">
+      <img class="column small img-responsive" src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo.png">
           <p style="padding-left: 20px; padding-right: 25px; text-align: justify;">It was founded in 1991 by a group of talented Champlain Island crafters including Sue Alenick, Mary Jane Healy, and Ethel Schuele. 
             <br>
           
