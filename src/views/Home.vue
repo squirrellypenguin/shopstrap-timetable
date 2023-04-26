@@ -13,7 +13,7 @@
   <hr class="my-4">
   <p>The Island Craft Shop (ICS) located in the South Hero Village is the oldest artisan cooperative in the Lake Champlain Region</p>
   
-  <div class="row" >
+  <div class="" >
   <div class="column conditional">
   <p></p>
   </div>
