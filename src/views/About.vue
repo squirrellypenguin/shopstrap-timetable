@@ -1,10 +1,6 @@
 <template>
   <div class="about">
-   
-    <h1 class="small">Our Story</h1>
-   
-   
-    <h2 class="smaller">Modest beginnings</h2>
+    <h2 class="smaller">From Modest Beginnings</h2>
     <div class="sign" >
       <img class="column small img-responsive" src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo_psgujc.png">
           <p style="padding-left: 20px; padding-right: 25px; text-align: justify;">It was founded in 1991 by a group of talented Champlain Island crafters including Sue Alenick, Mary Jane Healy, and Ethel Schuele. 
@@ -14,12 +10,13 @@
             This is a member-owned and operated business focused on the arts and not profits. Over the years, the shop has moved several times and members have come and gone, but the ICS continues thrive, offering the best and most innovative Vermont products.</p>
     </div>
     <br>
-    <h2> Our forever home</h2>
+    <h2> Our Forever Home</h2>
     <div class="sign">
-      <p style="padding-left: 20px; padding-right: 25px; text-align: justify;">The shop has grown into a must-see destination for Islanders and visitors alike.  Over twenty members now exhibit a wide-ranging array of unique crafts. 
-        <br>
-        <br>
-        You will find a fine assortment of items: fiber goods; pottery; fused & stained glass art; a mutlitude of jewelry; turned wooded items; watercolor & acrylic paintings; candles; garden ornaments; and many other made-in-Vermont goods. You'll find gift ideas for showers, weddings, birthdays, holidays and festivies of all make.</p>
+      <p style="padding-left: 20px; padding-right: 25px; text-align: justify;">The shop has grown into a must-see destination for Islanders and visitors alike.  Over twenty members now exhibit a wide-ranging array of unique crafts.  </p>
+      <img class="right" style="width: 100px; float: right; margin: 3px 12px 3px 10px;" src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682418874/craftshop/285932220_5349441058441565_3060271347053375612_n_byuhef.jpg">
+      <p style="padding-left: 20px; padding-right: 25px; text-align: justify;">
+      
+        You will find a fine assortment of items: fiber goods; pottery; fused & stained glass art; a mutlitude of jewelry; turned wooded items; watercolor & acrylic paintings; candles; garden ornaments; and many other made-in-Vermont goods. You'll find gift ideas for showers, weddings, birthdays, holidays and festivies of all make. </p>
     </div>
    </div>
    </template>
