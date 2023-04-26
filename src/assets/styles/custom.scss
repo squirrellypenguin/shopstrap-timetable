@@ -277,7 +277,21 @@ z-index: 110;
 }
 
 @media only screen and (max-width: 495px) {
-
+.sign {
+  margin-left: 10px;
+margin-right: 20px;
+}
+p.lead {
+  color: black;
+  font-size: 1.5rem;
+  display: grid;
+  text-align: center;
+  font-weight: bold;
+  
+}
+h1.title {
+  font-size: 36px;
+}
 
 }
 
