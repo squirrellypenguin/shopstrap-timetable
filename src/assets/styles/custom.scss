@@ -280,6 +280,8 @@ z-index: 110;
 .sign {
   margin-left: 10px;
 margin-right: 20px;
+border-width: 5px;
+margin-bottom: 10px;
 }
 p.lead {
   color: black;
@@ -289,9 +291,17 @@ p.lead {
   font-weight: bold;
   
 }
+
+.sign img {
+  width: 100px;
+  float: left; 
+  margin: 3px 12px 3px 10px;
+}
 h1.small {
-  text-align: center;
-  font-size: 1.8rem;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 1.75rem;
+  margin-bottom: 10px;
 }
 h1.title {
   font-size: 36px;
@@ -305,7 +315,7 @@ h2 {
 }
 h2.smaller {
  text-align: center;
-  font-size: 1.79rem;
+  font-size: 1.7rem;
 }
 }
 
