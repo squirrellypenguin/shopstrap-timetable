@@ -69,6 +69,13 @@ $theme-colors: (
   width:100%;
 }
 
+.sign {
+  background-color: white;
+  border-color: #bf1b2c;
+
+border-style: solid;
+padding-top: 25px;
+}
 .button-box {
   display: flex;
   flex-direction: column;
@@ -100,7 +107,7 @@ z-index: 110;
 .caption {
   margin-top: -500px;
   margin-left: 5%;
-  
+ 
   
 
   position: relative;
