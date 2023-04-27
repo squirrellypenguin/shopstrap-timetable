@@ -20,8 +20,41 @@
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                      <!-- Title -->
+                        <h3 class="text-black fs-5">{{artist.name}}</h3>
+                      
+                      <!-- Business name -->
+                        <p>{{artist.dba}}</p>
+
+                      <!-- About me -->
+                        <p class="fs-6 text-black">{{artist.artistStatement}}</p>
+                    
+                          
+                      <!-- Website -->
+                      <a :href="artist.website" alt="homepage" style="color:black; padding-right: 10px;"><font-awesome-icon color:black :icon="{ prefix: 'fa', iconName: 'home' }"/></a>  
+
+                      <!-- Twitter Link -->
+                        <a :href="artist.twitter" alt="twitter" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                    
+                        
+                      <!-- Facebook Link -->
+                        <a class="link-light" :href="artist.facebook" alt="FB" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                       
+                      <!-- Squarestore Link -->
+                        <a class="link-light" :href="artist.SquareStore" alt="squareB" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fa', iconName: 'square'}"/></a>
+                       
+                       
+                      <!-- Instragram Link -->
+                        <a :href="artist.Instagram" alt="insta" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
+                       
+                    
+                      <!-- Esty Store -->
+                       <a :href="artist.EtsayStore" alt="etsy" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'etsy' }"/></a>
+                        
+                      <!-- Email -->
+                        <a v-bind:href="'mailto:' + artist.email">
+                        <i style="color:black;" class="fa fa-paper-plane" aria-hidden="true"></i> </a>
+
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
-// * {
-//   outline: 1px solid red;
-//   outline-offset: -1px;
-// }
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @font-face {
@@ -29,6 +29,9 @@ $theme-colors: (
   "danger": #ffffff,
   "secondary": #F9F9F9,
 );
+
+
+
 #app {
   font-family: 'Montserrat';
   color: black;
@@ -59,7 +62,7 @@ $theme-colors: (
 .artist {
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url("http://placehold.jp/500x350.png");
+  
   height: 350px;
   background-color:rgb(248, 248, 248);
   background-size: 100% 100%;
@@ -280,6 +283,9 @@ z-index: 110;
 }
 
 @media only screen and (max-width: 495px) {
+  .gallery {
+    margin-left: 0px;
+  }
 .sign {
   
   margin-left: 10px;
@@ -331,6 +337,78 @@ h2.smaller {
 }
 }
 
+
+.container{
+  transform-style: preserve-3d;
+}
+
+.container .box{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.container .box .body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .box .body .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
+
+.container .box:hover .body{
+  transform: rotateY(180deg);
+}
+
+.container .box .body .content div{
+  transform-style: preserve-3d;
+  padding: 20px;
+  background: linear-gradient(45deg, #bf1b2c, #fff);
+  transform: translateZ(100px);
+  color: black;
+}
+
+.container .box .body .content div h3{
+  letter-spacing: 1px;
+}
 //@import '../node_modules/bootstrap/scss/bootstrap';
 // BootstrapVue and its default variables
 //@import '../node_modules/bootstrap-vue/src/index.scss';
