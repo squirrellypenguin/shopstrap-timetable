@@ -14,42 +14,44 @@
         <div class="box">
             <div class="body">
             
-                <div style="background-color:black;" class="imgContainer">
-                  <p style="color:white; z-index: 100;">{{artist.name}}</p>
-                    
+                <div style="background-color:beige" class="imgContainer">
+                
+                   <p style="color:white"><img :src="artist.photo1" style="z
+                   -1;"> </p>
+                   <p class="float" style="color:black; z-index: 1;">{{artist.name}}</p>
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
                       <!-- Title -->
-                        <h3 class="text-black fs-5">{{artist.name}}</h3>
+                        <h3 class="fs-5">{{artist.name}}</h3>
                       
                       <!-- Business name -->
-                        <p>{{artist.dba}}</p>
+                        <p v-if="artist.dba">{{artist.dba}}</p>
 
                       <!-- About me -->
                         <p class="fs-6 text-black">{{artist.artistStatement}}</p>
                     
                           
                       <!-- Website -->
-                      <a :href="artist.website" alt="homepage" style="color:black; padding-right: 10px;"><font-awesome-icon color:black :icon="{ prefix: 'fa', iconName: 'home' }"/></a>  
+                     <a v-if="artist.website" :href="artist.website" alt="homepage" style="color:black; padding-right: 10px;"><font-awesome-icon color:black :icon="{ prefix: 'fa', iconName: 'home' }"/></a>
 
                       <!-- Twitter Link -->
-                        <a :href="artist.twitter" alt="twitter" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+                        <a v-if="artist.twitter" :href="artist.twitter" alt="twitter" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
                     
                         
                       <!-- Facebook Link -->
-                        <a class="link-light" :href="artist.facebook" alt="FB" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+                        <a v-if="artist.facebook" class="link-light" :href="artist.facebook" alt="FB" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
                        
-                      <!-- Squarestore Link -->
+                      <!-- Squarestore Link 
                         <a class="link-light" :href="artist.SquareStore" alt="squareB" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fa', iconName: 'square'}"/></a>
-                       
+                    -->                      
                        
                       <!-- Instragram Link -->
-                        <a :href="artist.Instagram" alt="insta" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
+                        <a v-if="artist.Instagram" :href="artist.Instagram" alt="insta" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
                        
                     
                       <!-- Esty Store -->
-                       <a :href="artist.EtsayStore" alt="etsy" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'etsy' }"/></a>
+                       <a v-if="artist.EtsayStore" :href="artist.EtsayStore" alt="etsy" style="color:black; padding-right: 10px;"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'etsy' }"/></a>
                         
                       <!-- Email -->
                         <a v-bind:href="'mailto:' + artist.email">

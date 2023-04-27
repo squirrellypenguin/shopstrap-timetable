@@ -104,7 +104,7 @@ padding-top: 25px;
   width: 405px;
   margin-left: 5%;
   position: relative;
-z-index: 110;
+  z-index: 110;
 }
 
 .caption {
@@ -283,6 +283,16 @@ z-index: 110;
 }
 
 @media only screen and (max-width: 495px) {
+  h3{
+    text-align: center;
+    font-size: 12px;
+  }
+  .text-black {
+    font-size: 12px;
+    font-weight: bold;
+    color: #F9F9F9;
+    
+  }
   .gallery {
     margin-left: 0px;
   }
@@ -302,6 +312,7 @@ p.lead {
   display: grid;
   text-align: center;
   font-weight: bold;
+
   
 }
 
@@ -335,11 +346,17 @@ h2.smaller {
   font-size: 1.7rem;
   margin-top: -2px;
 }
+.container-fluid {
+  margin-left: -20px !important;
+}
 }
 
-
+.container-fluid {
+  padding-left: 0px;
+}
 .container{
   transform-style: preserve-3d;
+  padding-left: 0px;
 }
 
 .container .box{
@@ -380,6 +397,7 @@ h2.smaller {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -1;
 }
 
 .container .box .body .content{
@@ -401,13 +419,26 @@ h2.smaller {
 .container .box .body .content div{
   transform-style: preserve-3d;
   padding: 20px;
-  background: linear-gradient(45deg, #bf1b2c, #fff);
+  background: linear-gradient(33deg, #fff, #bf1b2c 20%, #bf1b2c 80%,#fff);
+   
   transform: translateZ(100px);
   color: black;
 }
 
 .container .box .body .content div h3{
   letter-spacing: 1px;
+}
+
+.float {
+  z-index: 100;
+  background-color: #ffffff;
+  border-color: #bf1b2c;
+  border-width:  5px;
+  border-style: solid;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
 }
 //@import '../node_modules/bootstrap/scss/bootstrap';
 // BootstrapVue and its default variables
