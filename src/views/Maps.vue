@@ -5,7 +5,7 @@
     <h3>329 US Route 2</h3>
     <h3>South Hero, Vermont 05486</h3>
     <a href="tel:8023723945">802 . 372 . 3945</a>
-    <div v-if="new Date().getMonth() > 3">
+    <div v-if="new Date().getMonth() > 4">
               <h2>{{new Date()}} WE ARE OPEN</h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                 <li class="list-unstyled-item list-hours-item d-flex">
