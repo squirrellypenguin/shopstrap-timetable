@@ -1,7 +1,7 @@
-//  * {
-//    outline: 1px solid red;
-//    outline-offset: -1px;
-//  }
+   * {
+    outline: 1px solid red;
+     outline-offset: -1px;
+   }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @font-face {
@@ -29,8 +29,6 @@ $theme-colors: (
   "danger": #ffffff,
   "secondary": #F9F9F9,
 );
-
-
 
 #app {
   font-family: 'Montserrat';
@@ -200,36 +198,8 @@ padding-top: 25px;
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-  }
-  .gallery {    
-      grid-template-columns: repeat(3, 1fr);   
-   }
-   .notes {
-    background-color:#d5c9bc;
- 
-  }
-  
- 
-}
-@media only screen and (max-width: 980px) {
-  .images {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  iframe {
-    width: 100%;
-   }
- 
-}
-@media only screen and (max-width: 790px) {
-.splide {
-  margin-left: -100px;
-}
-}
 @media only screen and (max-width: 720px) {
+  
   .footer {
     position: absolute;
     /* Set the fixed height of the footer here */
@@ -303,16 +273,12 @@ padding-top: 25px;
 
 }
 
+
+
 @media only screen and (max-width: 695px) {
-  
-  .gallery {    
-      grid-template-columns: repeat(1, 1fr);   
-   }
-
-
-}
-
-@media only screen and (max-width: 495px) {
+  .title {
+    font-size: 3.2rem;
+  }
   h3{
     text-align: center;
     font-size: 12px;
@@ -326,19 +292,20 @@ padding-top: 25px;
   .gallery {
     margin-left: 0px;
   }
+ 
 .sign {
-  
-  margin-left: 10px;
+margin-left: 10px;
 margin-right: 20px;
 border-width: 5px;
 margin-bottom: 10px;
 }
 .sign.front{
   margin-top: -40px;
+  width: 95%;
 }
 p.lead {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: grid;
   text-align: center;
   font-weight: bold;
@@ -346,6 +313,9 @@ p.lead {
   
 }
 
+.middle-picket {
+  margin-left: 100px;
+}
 .sign img {
   width: 100px;
   float: left; 
