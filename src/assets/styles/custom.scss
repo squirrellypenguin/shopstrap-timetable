@@ -195,11 +195,16 @@ padding-top: 25px;
     padding: 3px;
     padding-left: 10px; 
     background-color: white;
+    width: 300px;
   }
 }
 
 @media only screen and (max-width: 720px) {
   
+  .title {
+    font-size: 3.2rem;
+  }
+
   .footer {
     position: absolute;
     /* Set the fixed height of the footer here */
@@ -275,7 +280,7 @@ padding-top: 25px;
 
 
 
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 720px) {
   .title {
     font-size: 3.2rem;
   }
@@ -315,7 +320,9 @@ p.lead {
 
 .middle-picket {
   margin-left: 100px;
+  width: 300px;
 }
+
 .sign img {
   width: 100px;
   float: left; 
