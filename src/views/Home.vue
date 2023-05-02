@@ -7,11 +7,11 @@
   <div class="caption" >
     <div class="sign front">
     <h1 class="title">Island Craft Shop</h1>
-    <p class="lead" >An artisan cooperative</p>
+    <p class="lead" >A Cooperative Community</p>
   </div>
   <hr class="my-4">
-  <p class="top-picket"><span style="padding: 3px; background-color: white">The Island Craft Shop (ICS)</span></p> 
-  <p class="middle-picket" style="padding-left: 250px;"><span style="padding: 3px; background-color: white">located in the South Hero Village</span></p> 
+  
+  <p class="middle-picket" >located in the South Hero Village</p> 
   <p class="btm-picket"><span style="padding: 3px; background-color: white">The oldest artisan cooperative in the Lake Champlain Region</span></p>
   <div class="" >
   <div class="column conditional">
