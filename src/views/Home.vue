@@ -6,8 +6,13 @@
   
   <div class="caption" >
     <div class="sign front">
-    <h1 class="title">Island Craft Shop</h1>
+      <div contenteditable>
+      <p class="title"><span style="color: #bf1b2c">I</span>sland <span style="color: #bf1b2c">C</span>raft <span style="color: #bf1b2c">S</span>hop</p>
+    </div>
     <p class="lead" >A Cooperative Community</p>
+    
+    
+
   </div>
   <hr class="my-4">
   

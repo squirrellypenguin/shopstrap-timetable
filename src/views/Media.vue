@@ -10,7 +10,7 @@
       <p><img  width="1600" height="900"  class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682931111/Little_Guys_1_twdlmj.jpg" /> </p>
     </splide-slide>
     <splide-slide>
-      <p><img  width="1600" height="900" class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682931111/Little_Guys_1_twdlmj.jpg" /> </p>
+      <p><img  width="1600" height="900" class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682682859/Art/Halstrom4_a5hsb9.jpg" /> </p>
     </splide-slide>
   </splide>
   </div>

@@ -45,6 +45,7 @@ $theme-colors: (
 .footer.a {
   color: black;
 }
+ 
 .footer {
   position: absolute;
   /* Set the fixed height of the footer here */
@@ -56,6 +57,11 @@ $theme-colors: (
 .splide {
   width: 1980px !important;
   
+}
+
+.title {
+  font-family: 'Anti';
+  font-size: 6rem;
 }
 .container {
   padding-left: 0px;
