@@ -4,13 +4,13 @@
 
   <splide :options="options">
     <splide-slide>
-      <p><img class="resposnive"  src="https://dummyimage.com/800x600/000/fff.png&text=1" /> </p>
+      <p><img width="1600" height="900"  class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg" /> </p>
     </splide-slide>
     <splide-slide>
-      <p><img  class="resposnive" src="https://dummyimage.com/800x600/000/fff.png&text=2" /> </p>
+      <p><img  width="1600" height="900"  class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682931111/Little_Guys_1_twdlmj.jpg" /> </p>
     </splide-slide>
     <splide-slide>
-      <p><img  class="resposnive" src="https://dummyimage.com/800x600/000/fff.png&text=3" /> </p>
+      <p><img  width="1600" height="900" class="resposnive" src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg" /> </p>
     </splide-slide>
   </splide>
   </div>
@@ -29,7 +29,7 @@ export default {
         videoid: "nmsZRw-RWYI",
         options: {
           rewind : true,
-          width: 800,
+          width: 1600,
           cover: true,
           gap: '1rem',
           autoplay: true,

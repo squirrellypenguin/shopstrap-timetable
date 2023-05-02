@@ -1,7 +1,7 @@
-// * {
-//   outline: 1px solid red;
-//   outline-offset: -1px;
-// }
+ * {
+   outline: 1px solid red;
+   outline-offset: -1px;
+ }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @font-face {
@@ -40,6 +40,7 @@ $theme-colors: (
 .navbar {
   height: 10%;
   z-index: 10;
+ 
 }
 .footer.a {
   color: black;
@@ -51,6 +52,14 @@ $theme-colors: (
   width: 100%;
   background-color: #bf1b2c;
   font-size: 32px;
+}
+.splide {
+  width: 1980px !important;
+  
+}
+.container {
+  padding-left: 0px;
+  margin-left: 1000px;
 }
 .container-fluid {
   background-color: #d5c9bc;
@@ -114,14 +123,11 @@ padding-top: 25px;
 .caption {
   margin-top: -500px;
   margin-left: 5%;
- 
-  
-
   position: relative;
   }
 
  .caption h1 {
-   font-family: 'Anti';
+  font-family: 'Anti';
   font-size: 6rem;
   text-align: center;
   
@@ -134,10 +140,12 @@ padding-top: 25px;
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: "."; 
+    margin-left: 2000px;
   }
   .splide {
     z-index: 0;
-    width: 800px;
+    width: 1980px;
+    margin-left: -800px;
   }
   .images {
     display: grid;
@@ -155,9 +163,9 @@ padding-top: 25px;
 
  
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1980px) {
   body {
-    background-color: lightblue;
+    color: #d5c9bc;
   }
   .gallery {    
       grid-template-columns: repeat(3, 1fr);   
@@ -169,6 +177,13 @@ padding-top: 25px;
     width: 90%;
     margin-left: 5%;
     z-index: 110;
+  }
+  .sign {
+    width: 66%;
+    text-align:center;
+  }
+  .sign.front {
+    margin-top: -750px;
   }
 }
 
@@ -183,10 +198,8 @@ padding-top: 25px;
     background-color:#d5c9bc;
  
   }
-  .caption{
-  margin-left: 5%;
-    background-color: pink;
-  }
+  
+ 
 }
 @media only screen and (max-width: 980px) {
   .images {
