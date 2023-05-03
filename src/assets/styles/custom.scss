@@ -20,7 +20,10 @@ $orange: #22f2e1;
 $red: #fff;
 $body-bg: #d5c9bc;
 $body-color: rgb(179, 0, 24);
-body { min-height: 100vh; margin-bottom: 70px;}
+body { 
+  min-height: 95vh; 
+  margin-bottom: 75px;
+}
 
 $secondary: $orange;
 
@@ -30,6 +33,9 @@ $theme-colors: (
   "secondary": #F9F9F9,
 );
 
+.home{
+  max-width: fit-content;
+}
 #app {
   font-family: 'Montserrat';
   color: black;
@@ -117,7 +123,7 @@ padding-top: 25px;
 
 .notes {
   background-color:#d5c9bc;
-  height: 400px;
+  height: 100px;
   width: 405px;
   margin-left: 5%;
   position: relative;
@@ -176,9 +182,9 @@ padding-top: 25px;
    }
    .notes {
     background-color: #d5c9bc;
-    margin-top: 225px;
+    margin-top: 165px;
     height: 200px;
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     z-index: 110;
   }
@@ -202,7 +208,7 @@ padding-top: 25px;
 @media only screen and (max-width: 720px) {
   
   .title {
-    font-size: 3.2rem;
+    font-size: 2.7rem;
   }
 
   .footer {
@@ -262,7 +268,7 @@ padding-top: 25px;
      background-color:#d5c9bc;
      width: 85%;
      margin-top: 50px;
-     font-weight: bold;
+     
    }
  
    .notes {
@@ -281,9 +287,7 @@ padding-top: 25px;
 
 
 @media only screen and (max-width: 720px) {
-  .title {
-    font-size: 3.2rem;
-  }
+ 
   h3{
     text-align: center;
     font-size: 12px;
@@ -310,7 +314,7 @@ margin-bottom: 10px;
 }
 p.lead {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   display: grid;
   text-align: center;
   font-weight: bold;
@@ -319,7 +323,7 @@ p.lead {
 }
 
 .middle-picket {
-  margin-left: 100px;
+  margin-left: 5px;
   width: 300px;
 }
 
