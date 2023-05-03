@@ -20,10 +20,6 @@ $orange: #22f2e1;
 $red: #fff;
 $body-bg: #d5c9bc;
 $body-color: rgb(179, 0, 24);
-body { 
-  min-height: 95vh; 
-  margin-bottom: 75px;
-}
 
 $secondary: $orange;
 
@@ -31,21 +27,29 @@ $theme-colors: (
   "primary": #bf1b2c,
   "danger": #ffffff,
   "secondary": #F9F9F9,
-);
-
+  );
+  
+body { 
+    min-height: 95vh; 
+    margin-bottom: 75px;
+  }
 .home{
   max-width: fit-content;
 }
+
 #app {
   font-family: 'Montserrat';
   color: black;
   min-height: calc(100vh - 70px);
 }
+
 .navbar {
   height: 10%;
   z-index: 10;
  
+
 }
+
 .footer.a {
   color: black;
 }
@@ -58,6 +62,7 @@ $theme-colors: (
   background-color: #bf1b2c;
   font-size: 32px;
 }
+
 .splide {
   width: 1980px !important;
   
@@ -67,10 +72,12 @@ $theme-colors: (
   font-family: 'Anti';
   font-size: 6rem;
 }
+
 .container {
   padding-left: 0px;
   margin-left: 1000px;
 }
+
 .container-fluid {
   background-color: #d5c9bc;
 }
@@ -79,9 +86,11 @@ $theme-colors: (
   background-color: #d5c9bc;
   
 }
+
 .footer.a:visited {
   color:white;
 }
+
 .artist {
   width: 100%;
   background-repeat: no-repeat;
@@ -90,6 +99,7 @@ $theme-colors: (
   background-color:#d5c9bc;
   background-size: 100% 100%;
 }
+
 //Adjust the sizeof the carsouel 
 #tns1-ow {
   width:100%;
@@ -102,17 +112,20 @@ $theme-colors: (
 border-style: solid;
 padding-top: 25px;
 }
+
 .button-box {
   display: flex;
   flex-direction: column;
   font-weight: bold;
 }
+
 .map {
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 10px;
 }
+
 .gallery {    
   margin: 50px;
   display: grid;
@@ -152,11 +165,13 @@ padding-top: 25px;
     grid-template-areas: "."; 
     margin-left: 2000px;
   }
+
   .splide {
     z-index: 0;
     width: 1980px;
     margin-left: -800px;
   }
+
   .images {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -171,15 +186,16 @@ padding-top: 25px;
   }
 
 
- 
-
 @media only screen and (max-width: 1980px) {
+
   body {
     color: #d5c9bc;
   }
+
   .gallery {    
       grid-template-columns: repeat(3, 1fr);   
    }
+
    .notes {
     background-color: #d5c9bc;
     margin-top: 165px;
@@ -188,13 +204,16 @@ padding-top: 25px;
     margin-left: 5%;
     z-index: 110;
   }
+
   .sign {
     width: 66%;
     text-align:center;
   }
+
   .sign.front {
     margin-top: -750px;
   }
+
   .middle-picket {
     margin-left: 250px;
     margin-right: 630px;
@@ -203,6 +222,7 @@ padding-top: 25px;
     background-color: white;
     width: 300px;
   }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -221,6 +241,7 @@ padding-top: 25px;
     color: white;
     font-size: 24px;
   }
+
   .conditional {
     color: #22f2e1;
     object-fit: contain;
@@ -230,23 +251,29 @@ padding-top: 25px;
     height: 270px;
     background-image: url("https://res.cloudinary.com/duvzhauq9/image/upload/v1682535327/sml-shop_inb87z.jpg");
   }
+
   .centered {
     align-items: center;
     
   }
+
   body {
     background-color: lightblue;
   }
+
   .gallery {    
       grid-template-columns: repeat(2, 1fr);   
    }
+
    .map {
      grid-template-columns: 1fr;
    }
+
    .caption h1 {
    font-size: 3rem;
    z-index: -1;
   } 
+
   p.lead {
     color: black;
     font-size: 2rem;
@@ -255,14 +282,17 @@ padding-top: 25px;
     font-weight: bold;
     
   }
+
   .btn-primary {
     font-weight: bold;
   }
+
   .splide {
     z-index: 0;
     
     margin-left: -90px;
   }
+
   .caption{
     margin-left: 5%;
      background-color:#d5c9bc;
@@ -271,33 +301,36 @@ padding-top: 25px;
      
    }
  
-   .notes {
+  .notes {
      width: 85%;
      margin-top: 0px;
      margin-left: 5%;
      margin-right: 50px;
      height: 2px;
    }
+
    .container {
      display: none;
    }
 
 }
 
-
-
 @media only screen and (max-width: 720px) {
- 
+  .gallery {
+    display: block;
+    }
   h3{
     text-align: center;
     font-size: 12px;
   }
+
   .text-black {
     font-size: 12px;
     font-weight: bold;
     color: #F9F9F9;
     
   }
+
   .gallery {
     margin-left: 0px;
   }
@@ -308,10 +341,12 @@ margin-right: 20px;
 border-width: 5px;
 margin-bottom: 10px;
 }
+
 .sign.front{
   margin-top: -40px;
   width: 95%;
 }
+
 p.lead {
   color: black;
   font-size: 1.8rem;
@@ -343,6 +378,7 @@ h1.small {
 h1.title {
   font-size: 36px;
 }
+
 h2 {
   margin-top: 10px;
   background-color: #bf1b2c;
@@ -352,20 +388,23 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 h2.smaller {
  text-align: center;
   font-size: 1.7rem;
   margin-top: -2px;
 }
+
 .container-fluid {
- 
-  margin-left: -5px !important;
+   margin-left: -5px !important;
 }
+
 }
 
 .container-fluid {
   padding-left: 0px;
 }
+
 .container{
   transform-style: preserve-3d;
   padding-left: 10px;
@@ -391,8 +430,6 @@ h2.smaller {
   transform-style: preserve-3d;
   transition: 0.9s ease;
 }
-
-
 
 .container .box .body .imgContainer{
   position: absolute;
@@ -453,6 +490,7 @@ h2.smaller {
   padding-bottom: 5px;
 
 }
+
 //@import '../node_modules/bootstrap/scss/bootstrap';
 // BootstrapVue and its default variables
 //@import '../node_modules/bootstrap-vue/src/index.scss';

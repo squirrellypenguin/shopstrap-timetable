@@ -6,11 +6,11 @@
 
 
 
-  <div class="container-fluid">
+
    <div class="gallery"> 
     <div class="frame" v-for="(artist, index) in artists" :key=index>
-    <div class="artist">
-      <div class="container d-flex align-items-center justify-content-center flex-wrap">
+    <div class="container d-flex align-items-center justify-content-center flex-wrap">
+  
         <div class="box">
             <div class="body">
             
@@ -20,7 +20,7 @@
                    -1;"> </p>
                    <p class="float" style="color:black; z-index: 1;">{{artist.name}}</p>
                 </div>
-                <div class="content d-flex flex-column align-items-center justify-content-center">
+                <div class="content ">
                     <div>
                       <!-- Title -->
                         <h3 class="fs-5">{{artist.name}}</h3>
@@ -67,21 +67,10 @@
       
 
 
-    <!-- <div class=""><p>{{ artist.gsx$name.$t }}</p>
-    <p>{{ artist.gsx$about.$t }}</p>
-    </div>
-    <div class=''>
-    <div class="button-box">
-    <button> <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'door-closed' }"/>Website{{ artist.gsx$website.$t }}</button>
-    <button><font-awesome-icon :icon="{ prefix: 'far', iconName: 'paper-plane' }" />Email{{ artist.gsx$email.$t }}</button>
-    <button><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
-{{ artist.gsx$facebook.$t }}</button> 
-     </div> 
-    </div>  -->
+
    </div>
    </div>
-   </div>
- </div>
+
 </template>
 
 <script>
