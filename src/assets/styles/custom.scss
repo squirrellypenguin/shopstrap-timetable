@@ -188,8 +188,14 @@ padding-top: 25px;
 
 @media only screen and (max-width: 1980px) {
 
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+    }
+
   body {
     color: #d5c9bc;
+    margin-right: 1000px;
   }
 
   .gallery {    
@@ -206,7 +212,7 @@ padding-top: 25px;
   }
 
   .sign {
-    width: 66%;
+    width: 96%;
     text-align:center;
   }
 
@@ -319,6 +325,7 @@ padding-top: 25px;
   .gallery {
     display: block;
     }
+
   h3{
     text-align: center;
     font-size: 12px;
